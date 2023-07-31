@@ -16,6 +16,7 @@
 
 > **여러가지 데이터베이스를 쉽게 활용할 수 있어요!**<br>
 > 지원 파일 : .json / .db<br>
+> [자세한 사용법은 여기를 참조해주세요!](https://devksy.xyz/docs/jsonly)<br>
 
 ## Installation
 ```
