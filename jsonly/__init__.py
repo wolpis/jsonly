@@ -21,8 +21,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE."""
 
 
-<<<<<<< HEAD
 __version__ = "2.0.0"
-=======
-__version__ = "2.0.0"
->>>>>>> d534159db3f0b9ae0ee09a212ae3cf48f071e453
