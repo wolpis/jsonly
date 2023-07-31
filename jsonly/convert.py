@@ -30,7 +30,7 @@ class Convert:
 
         ## <Parameter>
         #### table_name:
-        데이터를 변환 시킬 테이블을 지정합니다.
+        데이터를 가져올 데이터베이스의 테이블 명을 지정합니다.
 
         #### filter:
         조건에 맞는 데이터만 불러옵니다. 만약 필요한 경우 이 인수를 지정하세요.\n
@@ -95,7 +95,7 @@ class Convert:
         #### table_name:
         데이터를 변환 시킬 테이블을 지정합니다.
 
-        #### type:
+        #### path:
         새로운 json파일을 생성할 경로를 지정합니다.
         """
         if path.endswith(".json"):
