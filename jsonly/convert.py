@@ -15,8 +15,9 @@ class Convert:
         `sql_path` db파일의 경로를 지정합니다.\n
 
         ### Exception:
-        `ConverException` : dict타입의 데이터를 변환 중 오류가 발생하였을 때 반환되는 예외 클래스입니다.\n
-        `ConvertTypeExcetion` : `save` 메소드 파라미터중 type에서 set 또는 update 의외의 값을 지정하였을 때 반환되는 예외 클래스입니다.
+        `ConverException` : DB파일을 dict타입의 데이터로 변환 중 오류가 발생하였을 때 반환되는 예외 클래스입니다.\n
+        `ConvertTypeExcetion` : `save` 메소드 파라미터중 type에서 set 또는 update 의외의 값을 지정하였을 때 반환되는 예외 클래스입니다.\n
+        `SavaException` : json파일을 저장 중 오류가 발생했을 때 반환되는 예외 클래스입니다.
         """
         self.jsonly = jsonly
         self.sql = sql_path
@@ -30,7 +31,7 @@ class Convert:
 
         ## <Parameter>
         #### table_name:
-        데이터를 변환 시킬 테이블을 지정합니다.
+        데이터를 가져올 데이터베이스의 테이블 명을 지정합니다.
 
         #### filter:
         조건에 맞는 데이터만 불러옵니다. 만약 필요한 경우 이 인수를 지정하세요.\n
@@ -95,7 +96,7 @@ class Convert:
         #### table_name:
         데이터를 변환 시킬 테이블을 지정합니다.
 
-        #### type:
+        #### path:
         새로운 json파일을 생성할 경로를 지정합니다.
         """
         if path.endswith(".json"):
