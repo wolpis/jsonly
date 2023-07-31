@@ -3,7 +3,7 @@ import json
 from .connect import Connect
 from .error import GetExcetion, UpdateExcetion
 
- 
+
 class UseJsonly(Connect):
     """
     ### "누구나 쉽게 데이터베이스 작업을"

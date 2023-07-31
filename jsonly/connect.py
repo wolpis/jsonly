@@ -31,5 +31,3 @@ class Connect:
             self.path = path
             self.encoding = encoding
             self.ensure_ascii = ensure_ascii
-
-            
