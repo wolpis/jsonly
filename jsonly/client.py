@@ -15,6 +15,9 @@ class UseJsonly(Connect):
         self, path: str, encoding: str = "utf-8", ensure_ascii: bool = False
     ) -> None:
         super().__init__(path, encoding, ensure_ascii)
+        self.path = path
+        self.encoding = encoding
+        self.ensure_ascii = ensure_ascii
 
     def get(self, path: str = None) -> dict[str, any]:
         """
