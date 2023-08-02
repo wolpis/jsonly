@@ -2,7 +2,7 @@ import json
 import sqlite3
 from typing import Union
 
-from .clinet import UseJsonly
+from .client import UseJsonly
 from .error import ConverException, ConvertTypeExcetion, SaveException
 
 
