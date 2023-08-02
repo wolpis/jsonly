@@ -43,7 +43,7 @@ $ pip install jsonly
 
 ```py
 # get.py
-from jsonly.clinet import UseJsonly
+from jsonly.client import UseJsonly
 
 jsonly = UseJsonly(path="data.json")
 print(jsonly.get(path="기본/사과"))
@@ -60,7 +60,7 @@ print(jsonly.get(path="기본/사과"))
 
 ```py
 # set.py
-from jsonly.clinet import UseJsonly
+from jsonly.client import UseJsonly
 
 jsonly = UseJsonly(path="data.json")
 
@@ -86,7 +86,7 @@ print(jsonly.set(data=data))
 
 ```py
 # update.py
-from jsonly.clinet import UseJsonly
+from jsonly.client import UseJsonly
 
 jsonly = UseJsonly(path="data.json")
 
@@ -117,7 +117,7 @@ print(jsonly.update(data=data))
 
 ```py
 # insert.py
-from jsonly.clinet import UseJsonly
+from jsonly.client import UseJsonly
 
 jsonly = UseJsonly(path="data.json")
 
