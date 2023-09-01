@@ -47,7 +47,6 @@ class Convert:
             if filter:
                 result = {}
                 for key in filter.keys():
-                    print(key)
                     cursor.execute(
                         f"SELECT * FROM {table_name} WHERE {key}='{filter[key]}'"
                     )
